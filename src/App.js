@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
+import Home from './pages/Home';
+import Adept from './pages/Adept';
+import AboutUs from './pages/AboutUs';
+import { Routes, Route } from 'react-router-dom'
+import Contact from './pages/Contact';
+import Faq from './pages/Faq';
+import Products from './pages/Products';
+import Cardiatis from './pages/Cardiatis';
+import Fungible from './pages/Fungible';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Navbar />
+          
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/Faq' element={<Faq />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/products/adept' element={<Adept />} />
+        <Route path='/products/cardiatis' element={<Cardiatis/>} />
+        <Route path='/products/fungible' element={<Fungible />} />
+      </Routes>
+    <Footer />
     </div>
   );
 }
