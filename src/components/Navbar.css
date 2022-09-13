@@ -1,0 +1,37 @@
+.test{
+    border-width: 3px;
+    background-color:  #8e2424 ;
+    padding: 0.25vh;
+}
+
+.navigation{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: row;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.logo{
+    max-width: 19vh;
+    padding-right: 35vw;
+}
+
+.botones{
+    padding: 1vw 0.25vw 1vw 0.25vw;
+}
+
+#productos{
+    padding-left: 0.30vw;
+    padding-right: 0.30vw;
+}
+
+#faq{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+
