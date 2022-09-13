@@ -1,0 +1,58 @@
+.Footer{
+    background-color: #8e2424;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.map{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.map2{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.list li{
+    list-style-type: none;
+    color: white;
+}
+
+.list2 li {
+    list-style-type: none;
+    color: white;
+}
+
+.logos-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.logos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    list-style-type: none;
+}
+.logos2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+
+.logos img{
+    max-width: 10vw;
+
+}
+.logos2 img{
+    max-width: 10vw;
+    max-height: 10vh;
+
+}
