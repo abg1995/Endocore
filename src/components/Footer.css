@@ -1,5 +1,5 @@
 .Footer{
-    background-color: #8e2424;
+    background-color:  #909090 ;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -55,4 +55,16 @@
     max-width: 10vw;
     max-height: 10vh;
 
+}
+
+a{
+    color: #a02224 ;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
 }
