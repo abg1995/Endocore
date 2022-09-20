@@ -5,7 +5,7 @@ function Adept(){
     return (
 
         <>
-        <p>Pagina de adept</p>
+        <h1>Pagina de adept</h1>
         </>
     )
 }

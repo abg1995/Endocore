@@ -5,7 +5,7 @@ function Cardiatis(){
     return (
 
         <>
-        <p>Pagina de cardiatis</p>
+        <h1>Pagina de cardiatis</h1>
         </>
     )
 }

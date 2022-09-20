@@ -5,7 +5,8 @@ function Fungible(){
     return (
 
         <>
-        <p>Pagina de cardiatis</p>
+        <h1>Pagina de fungible</h1>
+
         </>
     )
 }
