@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar.jsx'
+import Navigationbar from './components/Navigationbar.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './pages/Home';
 import Adept from './pages/Adept';
@@ -10,15 +10,13 @@ import Faq from './pages/Faq';
 import Products from './pages/Products';
 import Cardiatis from './pages/Cardiatis';
 import Fungible from './pages/Fungible';
-
-
-
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-
-      <Navbar />
+  
+      <Navigationbar />
           
 
       <Routes>
