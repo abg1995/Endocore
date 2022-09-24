@@ -1,0 +1,28 @@
+.titles{
+color: black;
+}
+
+.p-carousel{
+    color: black;
+}
+
+#third-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 80vh;
+    max-width: auto;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url("/public/Imagenes/Captura\ de\ pantalla\ 2022-09-20\ a\ las\ 12.22.24.png");
+    background-position: center;
+    background-size: 1100px;
+}
+
+.texto-inicial{
+    text-align: center;
+    border: 0rem 3rem;
+    padding: 0rem 5rem;
+}

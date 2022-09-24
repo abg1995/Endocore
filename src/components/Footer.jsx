@@ -5,7 +5,9 @@ function Footer() {
       <>
     <div className="Footer">
       <div className="map">
+        <br />
         <ul className="list">
+        <br />
           <a className="links" href="/">Home</a> <br />
           <a className="links" href="/products">Products</a><br />
           <li>
