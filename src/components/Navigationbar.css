@@ -1,7 +1,7 @@
 .test{
-    border-width: 3px;
     background-color:  #8e2424 ;
-    padding: 0.25vh;
+    padding: 0.35vh;
+    padding-bottom: 0.5vh;
 }
 
 .navigation{
@@ -9,6 +9,7 @@
     justify-content:space-around;
     align-items:center;
     flex-direction: row;
+    max-height: 14vh;
 }
 
 .links{
@@ -21,9 +22,8 @@
 }
 
 .logo{
-    max-width: 19vw;
-    max-height: 10vh;
-    padding-right: 35vw;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 
@@ -45,10 +45,11 @@
 .link-nav:hover{
     color:#a02224;
     background-color: white;
-    padding: 1.5vw;
+    padding: 5vh 1.25vw;
+    max-height: 20vh;
 }
 
-.link-nav:active{
+.link-nav:active a{
     background-color: white;
     color:#a02224;
 
@@ -90,4 +91,8 @@
 
   .dropdown:hover .dropbtn {background-color: #8e2424;}
 
+
+  .separador{
+    border: px solid #a02224;
+  }
 
