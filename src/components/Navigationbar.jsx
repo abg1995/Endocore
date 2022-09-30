@@ -10,9 +10,13 @@ function Navigationbar() {
     <div className="test">
       <Navbar className="navigation">
       <NavbarBrand href="/">
-    <img src={logo}  alt="logo" height="80" width="100" padding-right="1000"/> 
+      <div className="logo" >
+      <img src={logo}  alt="logo" height="80" width="100" margin-right="1000"/>
+      </div>
+    
   </NavbarBrand>
-          
+  
+
           <div className="dropdown">
              <button className="dropbtn">PRODUCTOS</button>
              <div className="dropdown-content">
@@ -37,6 +41,7 @@ function Navigationbar() {
                   FAQ
                 </NavLink>
               </a>
+              <div className="logo"></div>
       </Navbar>
       </div>
     </>
