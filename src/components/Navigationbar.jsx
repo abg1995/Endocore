@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./Navigationbar.css";
+import "../styles/Navigationbar.css";
 import logo from './picwish.png'
 import {Navbar, NavbarBrand} from 'reactstrap'
 
@@ -22,6 +22,7 @@ function Navigationbar() {
              <div className="dropdown-content">
                  <a href="/products">ALL PRODUCTS</a>
                  <a href="/products/adept">ADEPT</a>
+                 <a href="/products/adept/:product">ADEPT</a>
                  <a href="/products/cardiatis">CARDIATIS</a>
                  <a href="/products/fungible">FUNGIBLE</a>
              </div>

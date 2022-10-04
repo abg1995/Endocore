@@ -1,5 +1,5 @@
 import {Carousel} from 'react-bootstrap'
-import './Home.css'
+import '../styles/Home.css'
 
 
 function Home() {
