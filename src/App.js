@@ -10,6 +10,7 @@ import Faq from './pages/Faq';
 import Products from './pages/Products';
 import Cardiatis from './pages/Cardiatis';
 import Fungible from './pages/Fungible';
+import MoreDetails from './pages/MoreDetails';
 
 function App() {
 
@@ -110,6 +111,7 @@ function App() {
         <Route path='/Faq' element={<Faq />} />
         <Route path='/products' element={<Products />} />
         <Route path='/products/adept' element={<Adept products={products} />  } />
+        <Route path='/products/adept/:product' element={<MoreDetails products={products} />} />
         <Route path='/products/cardiatis' element={<Cardiatis/>} />
         <Route path='/products/fungible' element={<Fungible />} />
       </Routes>
