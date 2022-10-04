@@ -1,0 +1,98 @@
+.test{
+    background-color:  #8e2424 ;
+    padding: 0.35vh;
+    padding-bottom: 0.5vh;
+}
+
+.navigation{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: row;
+    max-height: 5.8rem;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover{
+    color:#a02224;
+}
+
+.logo{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+#productos{
+    padding-left: 0.30vw;
+    padding-right: 0.30vw;
+}
+
+#faq{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+
+.link-nav{
+    color: white;
+}
+
+.link-nav:hover{
+    color:#a02224;
+    background-color: white;
+    padding: 5vh 1.25vw;
+    max-height: 20vh;
+}
+
+.link-nav:active a{
+    background-color: white;
+    color:#a02224;
+
+}
+
+.dropbtn {
+    background-color: #8e2424;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #8e2424;}
+
+
+  .separador{
+    border: px solid #a02224;
+  }
+
